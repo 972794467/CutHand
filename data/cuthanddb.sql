@@ -2,6 +2,8 @@ CREATE DATABASE IF NOT EXISTS `cuthanddb`;
 
 USE `cuthanddb`;
 
+GRANT ALL ON cuthanddb to 'cutadmin'@'%' IDENTIFIED BY '';
+FLUSH PRIVILEGE;
 --管理员表
 
 DROP TABLE IF EXISTS `admin`;
