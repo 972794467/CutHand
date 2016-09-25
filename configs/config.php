@@ -8,4 +8,4 @@
    define ('DATABASE_DBNAME','cuthanddb');
 
    
-   define ('CONNECT_DATABASE_ERROR_CODE','2');              //数据库连接错误
+   define ('CONNECT_DATABASE_ERROR','数据库连接失败');              //数据库连接错误
